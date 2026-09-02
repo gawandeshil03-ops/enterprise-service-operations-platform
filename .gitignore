@@ -1,0 +1,51 @@
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# IDE
+.idea/
+*.iml
+.vscode/
+*.swp
+.project
+.classpath
+.settings/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Compiled
+*.class
+*.jar
+!gradle/wrapper/gradle-wrapper.jar
+*.war
+
+# Logs
+*.log
+
+# Runtime
+/bin/
+out/
+
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+service-account.json
+target/
+build/
+.gradle/
+.idea/
+.vscode/
+__pycache__/
+.venv/
+venv/
+node_modules/
+*.log
